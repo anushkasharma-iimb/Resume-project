@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anushka Sharma | BBA DBE — IIM Bangalore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav id="navbar">
+    <div class="nav-brand">
+      <span class="nav-initials">AS</span>
+      <span class="nav-name">Anushka Sharma</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <button class="drawer-close" id="drawerClose">&times;</button>
+    <ul>
+      <li><a href="#about"        onclick="closeDrawer()">About</a></li>
+      <li><a href="#education"    onclick="closeDrawer()">Education</a></li>
+      <li><a href="#skills"       onclick="closeDrawer()">Skills</a></li>
+      <li><a href="#achievements" onclick="closeDrawer()">Achievements</a></li>
+      <li><a href="#hobbies"      onclick="closeDrawer()">Hobbies</a></li>
+      <li><a href="#contact"      onclick="closeDrawer()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ── HERO ── -->
+  <header id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 id="hero-name">Anushka Sharma</h1>
+      <p class="hero-degree">BBA &mdash; Digital Business &amp; Entrepreneurship</p>
+      <p class="hero-college">Indian Institute of Management Bangalore</p>
+      <div class="hero-line"></div>
+      <p class="hero-bio">
+        A first-year BBA student exploring the world of business, technology, and digital innovation.
+        Passionate about writing, debating, and building things that solve real problems.
+      </p>
+      <div class="hero-btns">
+        <a href="#achievements" class="btn-solid">My Achievements</a>
+        <a href="#contact"      class="btn-ghost">Contact Me</a>
+      </div>
+    </div>
+    <div class="deco deco-1"></div>
+    <div class="deco deco-2"></div>
+    <div class="deco deco-3"></div>
+  </header>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section reveal">
+    <div class="container">
+      <p class="sec-label">About Me</p>
+      <h2 class="sec-title">A little about myself</h2>
+      <div class="about-layout">
+        <div class="about-avatar-wrap">
+          <div class="avatar">AS</div>
+          <p class="avatar-caption">IIM Bangalore<br/>BBA DBE, 2024–2027</p>
+        </div>
+        <div class="about-text">
+          <p>
+            Hello! I am Anushka Sharma, a first-year student in the BBA Digital Business &amp;
+            Entrepreneurship programme at IIM Bangalore. I come from Gaya, Bihar and completed
+            my schooling at DPS.
+          </p>
+          <p>
+            I joined this programme to understand how modern businesses operate in the digital
+            world — from strategy and finance to design and technology. I enjoy learning new
+            tools and concepts, whether it is building a spreadsheet model, drafting a report,
+            or now — coding my own website using HTML and CSS.
+          </p>
+          <p>
+            I have a keen interest in creative writing and debate, and have represented my school
+            at interschool competitions. I am always looking for new challenges and opportunities
+            to grow.
+          </p>
+          <div class="about-pills">
+            <span class="pill">IIM Bangalore</span>
+            <span class="pill">Bengaluru, India</span>
+            <span class="pill">Batch of 2027</span>
+            <span class="pill">Open to Internships</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section id="education" class="section section-tinted reveal">
+    <div class="container">
+      <p class="sec-label">Education</p>
+      <h2 class="sec-title">Academic Background</h2>
+      <div class="edu-list">
+
+        <div class="edu-item">
+          <div class="edu-icon">IIM<br/><span>B</span></div>
+          <div class="edu-body">
+            <h3>BBA &mdash; Digital Business &amp; Entrepreneurship</h3>
+            <p class="edu-org">Indian Institute of Management Bangalore</p>
+            <p class="edu-meta">2024 &ndash; 2027 &nbsp;&bull;&nbsp; Bengaluru, Karnataka</p>
+            <p class="edu-desc">
+              Core subjects include Web Development, Business Communication, Financial Accounting,
+              Marketing Fundamentals, Data Literacy, Design Thinking, and Entrepreneurship.
+            </p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-icon school">XII</div>
+          <div class="edu-body">
+            <h3>Class XII &mdash; Humanities with Mathematics</h3>
+            <p class="edu-org">DPS</p>
+            <p class="edu-meta">Passed 2024 &nbsp;&bull;&nbsp; CBSE Board &nbsp;&bull;&nbsp; 97%</p>
+            <p class="edu-desc">
+              Studied Humanities with Mathematics. Actively participated in interschool
+              creative writing and debate competitions, bringing home top positions.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section reveal">
+    <div class="container">
+      <p class="sec-label">Skills</p>
+      <h2 class="sec-title">What I know</h2>
+      <div class="skills-wrapper">
+
+        <div class="skill-bars">
+          <div class="skill-row">
+            <div class="skill-meta">
+              <span class="skill-name">HTML5</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" style="--w:75%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-meta">
+              <span class="skill-name">CSS3</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" style="--w:70%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-meta">
+              <span class="skill-name">Microsoft Excel</span>
+              <span class="skill-pct">82%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" style="--w:82%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-meta">
+              <span class="skill-name">MS Word &amp; PowerPoint</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" style="--w:90%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-meta">
+              <span class="skill-name">Canva</span>
+              <span class="skill-pct">88%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" style="--w:88%"></div></div>
+          </div>
+        </div>
+
+        <div class="soft-skills">
+          <h4 class="soft-title">Soft Skills</h4>
+          <div class="tag-cloud">
+            <span class="tag">Communication</span>
+            <span class="tag">Teamwork</span>
+            <span class="tag">Creative Writing</span>
+            <span class="tag">Public Speaking</span>
+            <span class="tag">Time Management</span>
+            <span class="tag">Research</span>
+            <span class="tag">Leadership</span>
+            <span class="tag">Critical Thinking</span>
+            <span class="tag">Debate</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ACHIEVEMENTS ── -->
+  <section id="achievements" class="section section-tinted reveal">
+    <div class="container">
+      <p class="sec-label">Achievements</p>
+      <h2 class="sec-title">Awards &amp; Recognition</h2>
+      <div class="achieve-grid">
+
+        <div class="achieve-card">
+          <div class="achieve-icon">&#9999;</div>
+          <h3>1st Position &mdash; Creative Writing Conclave</h3>
+          <p class="achieve-where">Interschool Competition &nbsp;&bull;&nbsp; 2023</p>
+          <p>
+            Secured first place at an interschool Creative Writing Conclave, competing against
+            participants from multiple schools. Recognised for originality, storytelling,
+            and quality of writing.
+          </p>
+        </div>
+
+        <div class="achieve-card">
+          <div class="achieve-icon">&#127908;</div>
+          <h3>2nd Position &mdash; Debate Conclave</h3>
+          <p class="achieve-where">Interschool Competition &nbsp;&bull;&nbsp; 2024</p>
+          <p>
+            Finished as runner-up at an interschool Debate Conclave, demonstrating strong
+            argumentation, in-depth research, and confident public speaking on stage.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOBBIES ── -->
+  <section id="hobbies" class="section reveal">
+    <div class="container">
+      <p class="sec-label">Hobbies &amp; Interests</p>
+      <h2 class="sec-title">Beyond the classroom</h2>
+      <div class="hobbies-grid">
+
+        <div class="hobby-card">
+          <div class="hobby-emoji">&#128218;</div>
+          <h4>Reading</h4>
+          <p>Fiction, business books, and biographies. Currently reading <em>Shoe Dog</em> by Phil Knight.</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-emoji">&#9997;</div>
+          <h4>Creative Writing</h4>
+          <p>Love writing short stories and essays. Won 1st place at an interschool creative writing conclave in 2023.</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-emoji">&#127908;</div>
+          <h4>Debating</h4>
+          <p>Passionate about debate and public speaking. Runner-up at an interschool debate conclave in 2024.</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-emoji">&#127909;</div>
+          <h4>Documentaries</h4>
+          <p>Enjoy business and technology documentaries. Favourites include <em>The Social Dilemma</em>.</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-emoji">&#127939;</div>
+          <h4>Trekking</h4>
+          <p>Love weekend treks around Bengaluru. Have completed the Nandi Hills and Skandagiri trails.</p>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-emoji">&#127926;</div>
+          <h4>Music</h4>
+          <p>Enjoy listening to classical Indian music and indie pop. Music helps me focus and unwind.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section section-tinted reveal">
+    <div class="container">
+      <p class="sec-label">Contact</p>
+      <h2 class="sec-title">Let's connect</h2>
+      <p class="contact-sub">
+        I am open to internship opportunities, collaborative projects, and friendly conversations.
+        Feel free to reach out!
+      </p>
+      <div class="contact-table">
+        <div class="ct-row">
+          <span class="ct-label">Email</span>
+          <a href="mailto:anushka.sharma@iimb.ac.in" class="ct-val">anushka.sharma@iimb.ac.in</a>
+        </div>
+        <div class="ct-row">
+          <span class="ct-label">GitHub</span>
+          <a href="https://github.com/anushkasharma-iimb/Resume-project" target="_blank" class="ct-val">github.com/anushkasharma-iimb/Resume-project</a>
+        </div>
+        <div class="ct-row">
+          <span class="ct-label">Location</span>
+          <span class="ct-val no-link">Bengaluru, Karnataka, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p>Designed &amp; coded by <strong>Anushka Sharma</strong> &nbsp;&middot;&nbsp; BBA DBE, IIM Bangalore &nbsp;&middot;&nbsp; 2026</p>
+    <p class="footer-note">Built using HTML5 and CSS3 &mdash; Web Development Assignment</p>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileDrawer').classList.add('open');
+    });
+    document.getElementById('drawerClose').addEventListener('click', closeDrawer);
+    function closeDrawer() {
+      document.getElementById('mobileDrawer').classList.remove('open');
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
